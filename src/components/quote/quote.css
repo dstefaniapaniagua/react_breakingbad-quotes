@@ -1,0 +1,24 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    padding-left: 4rem;
+
+}
+h1::before {
+  content: open-quote;
+  font-size: 10rem;
+  color: black;
+  position: absolute;
+  left: -1rem;
+  top: -2rem;
+} 
+p {
+    font-family: Verdana, sans-serif, Tahoma,;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+    color: rgb(121, 121, 121);
+    margin-top: 2rem;
+    padding-right: 3rem;
+}
